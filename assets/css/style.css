@@ -1,0 +1,47 @@
+body{
+    background: rgb(29, 29, 29);
+   
+    background-size:cover;
+    background-repeat: no-repeat;
+
+
+}
+
+
+.container h2 {
+    text-align: center;
+}
+
+.container {
+
+    padding: 5vh 5vh;
+    overflow-y: auto;
+    max-height: 94vh;
+}
+
+.regulamin{
+    margin-top: 200px;
+    font-size: 13px;
+}
+.regulamin h2,
+.regulamin ul {
+    margin: 3vh;
+}
+.regulamin h3,
+.regulamin li{
+    text-align: center;
+}
+footer {
+    display: flex;
+    font-size: 1.5vh;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+    top: 98vh;
+    left: 0;
+    width: 100%;
+    height: 5vh;
+    background-color: black;
+    color: white;
+}
