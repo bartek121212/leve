@@ -14,20 +14,3 @@ navLinks.forEach((navLinks) => {
 });
 
 
-// Pobierz aktualny adres URL
-const currentUrl = window.location.href;
-
-// Pobierz protokół
-const protocol = window.location.protocol;
-
-// Pobierz nazwę hosta
-const host = window.location.host;
-
-// Pobierz ścieżkę
-const path = window.location.pathname;
-
-// Wyświetl wyniki w konsoli
-console.log("https://levelrp.pl/index.html:", currentUrl);
-console.log("https, http:", protocol);
-console.log("https://levelrp.pl:", host);
-console.log("index.html:", path);
