@@ -14,6 +14,20 @@ navLinks.forEach((navLinks) => {
 });
 
 
-let _ = location.href;
-_ = location.host;
-console.log(_);
+// Pobierz aktualny adres URL
+const currentUrl = window.location.href;
+
+// Pobierz protokół
+const protocol = window.location.protocol;
+
+// Pobierz nazwę hosta
+const host = window.location.host;
+
+// Pobierz ścieżkę
+const path = window.location.pathname;
+
+// Wyświetl wyniki w konsoli
+console.log("Aktualny adres URL:", currentUrl);
+console.log("Protokół:", protocol);
+console.log("Nazwa hosta:", host);
+console.log("Ścieżka:", path);
