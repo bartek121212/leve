@@ -27,7 +27,7 @@ const host = window.location.host;
 const path = window.location.pathname;
 
 // Wyświetl wyniki w konsoli
-console.log("Aktualny adres URL:", currentUrl);
-console.log("Protokół:", protocol);
-console.log("Nazwa hosta:", host);
-console.log("Ścieżka:", path);
+console.log("https://levelrp.pl/index.html:", currentUrl);
+console.log("https, http:", protocol);
+console.log("https://levelrp.pl:", host);
+console.log("index.html:", path);
