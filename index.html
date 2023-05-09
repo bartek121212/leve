@@ -14,15 +14,11 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap"
       rel="stylesheet"
     />
+
     <script>
-      // Poniższy kod wykona się po załadowaniu strony
-      window.onload = function() {
-        // Sprawdź czy aktualny adres URL zawiera "leverp/index.html"
-        if (window.location.href.indexOf("leverp/index.html") > -1) {
-          // Jeśli tak, zmień tytuł strony na "levelrp"
-          document.title = "levelrp";
-        }
-      };
+      let _ = location.href;
+      _ = location.search;
+      console.log(_);
     </script>
     
 </head>
