@@ -12,3 +12,8 @@ navLinks.forEach((navLinks) => {
     hamMenuIcon.classList.toggle("fa-times");
   });
 });
+
+
+let _ = location.href;
+_ = location.host;
+console.log(_);
