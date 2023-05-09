@@ -93,10 +93,12 @@
       
      
       </section>
-      <div class="button">
+      <div class="przycisk">
+      <div class="button"><p>Dolacz juz dzis</p>
         <a href="https://discord.gg/huU75Mj4cS">
-      <button>Dolacz juz dzis</button>
+     
       </a>
+    </div>
     </div>
 
       
@@ -148,7 +150,43 @@ section#home {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
   }
+  .button{
+  border-radius: 25px;
+  width: 140px;
+  height: 40px;
+  background: orange;
+  transition: all 0.5s;
+  text-align: center;
+  border: solid 3px black;
+
+}
+.button p{
+  display: flex;
+  justify-content: center;
+align-items: center;
+text-align: center;
+padding: 5px;
+
+}
+
+.button:hover{
+  cursor: pointer;
+  background: white;
   
+}
+
+@media all and (max-width:10em){
+  .button{
+ margin: auto;
+
+
+  }
+  }
+  .przycisk{
+    display: grid;
+  place-items: center;
+  margin-top: -450px;
+  }
     </style>
 </body>
 

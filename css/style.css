@@ -613,29 +613,6 @@ a:focus {
 
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
-button{
-  border-radius: 25px;
-  width: 140px;
-  height: 40px;
-  background: orange;
-  transition: all 0.5s;
-}
 
-button:hover{
-  cursor: pointer;
-  background: white;
-}
-.button{
-  display: grid;
-  place-items: center;
-  margin-top: -450px;
-}
-@media all and (max-width:10em){
-  .button{
- margin: auto;
-
-
-  }
-  }
 
   
