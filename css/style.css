@@ -1,7 +1,7 @@
 body {
   font-family: 'Poppins', sans-serif;
-  color: #0c0c0c;
-  background-color: #ffffff;
+  color: #eeeeee;
+  background-color: #272727;
 }
 
 .layout_padding {
@@ -36,9 +36,9 @@ body {
 
 .heading_container h2 {
   font-weight: bold;
-  color: #050000;
+  color: #fffefe;
   padding: 3px 10px;
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid #f3efef;
 }
 
 /*header section*/
@@ -599,6 +599,7 @@ a:focus {
           justify-content: center;
   padding: 20px;
   background-color: #1d1d1d;
+  
 }
 
 .footer_section p {
@@ -615,4 +616,17 @@ a:focus {
 /*# sourceMappingURL=style.css.map */
 
 
-  
+  .zdjecia{
+
+  display: grid;
+   margin-top:-1180px;
+    margin-left: 1100px;
+    gap: 25px;
+  }
+
+  img{
+    width: 50%;
+    height:100%;
+    border-radius:25px;
+    filter: drop-shadow(9px 8px 7px black);
+  }
