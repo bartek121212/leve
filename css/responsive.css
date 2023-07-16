@@ -41,9 +41,19 @@
     }
 
     .about_section .img-box {
-        margin-top: 35px;
-    }
+        margin-top: 1245px;
 
+    }
+    .zdjecia{
+        margin-left: 0px;
+        margin-top: -1600px;
+ 
+
+       
+    }
+    img{
+        width:100%;
+    }
     .service_section .box {
         width: 100%;
     }
@@ -83,3 +93,4 @@
     }
 
 }
+

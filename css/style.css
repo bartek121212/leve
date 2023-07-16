@@ -630,3 +630,10 @@ a:focus {
     border-radius:25px;
     filter: drop-shadow(9px 8px 7px black);
   }
+
+  @media (min-width: 1200px) {
+    .zdjecia {
+        
+    }
+
+}
